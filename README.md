@@ -4,7 +4,8 @@ You can learn how to create an Axis2 SOAP web service from this repository.
 ## Introduction
 
 _SOAP brings it’s own protocol and focuses on exposing pieces of application logic (not data) as services. SOAP exposes operations. SOAP is focused on accessing named operations, each implement some business logic through different interfaces._
-If you need extra securiy then SOAP is a good choice for your. Okay Lets start now!
+
+If you need extra securiy then SOAP is a good choice for you. Okay Lets start now!
 
 If you are interested to do everything from scratch then go through the following steps:
 * As we are going to create an Axis2 SOAP web service, first of all in Eclipse axis2 runtime should be located. Go to https://axis.apache.org/axis2/java/core/download.cgi and downd the war file distribution of latest release. Unzipp it.
