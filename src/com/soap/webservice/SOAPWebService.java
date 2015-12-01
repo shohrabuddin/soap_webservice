@@ -17,8 +17,8 @@ public class SOAPWebService {
  * @param data: String
  * @return Json String
  */
-	public String postMethod(String data){ 
-		String retrunJsonString = Utility.constuctJsonPostData(data);
+	public String postMethod(String name, String age, String address){ 
+		String retrunJsonString = Utility.constuctJsonPostData(name, age, address);
 		
 		return retrunJsonString;
 	}

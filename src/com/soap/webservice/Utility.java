@@ -12,30 +12,16 @@ import org.json.JSONObject;
 
 abstract public class Utility {
 	
-	public static String constuctJsonPostData(String jsonData){ //jsonData is the input from client
-		/**
-		 * Sample JSON input from client
-		 * {
-		 * 		"name":"shohrab",
-		 * 		"age":"30",
-		 * 		"address":"Stuttgart, Germany"
-		 * }
-		 */
+	public static String constuctJsonPostData(String name, String age, String address){ //jsonData is the input from client
+
 		
-		String name=null, age=null, address=null;
+		
 		
 		//JSON object for creating JSON data as output
 		JSONObject jsonOutput = new JSONObject(); 
 		try {
-			//Constructing a jsonObject out of the client input
-			JSONObject jsonInput = new JSONObject(jsonData); 
-			
-			//Extracting values form user's input
-			name = "User's name is "+jsonInput.getString("name"); 
-			age = "User's age is " + jsonInput.getString("age");
-			address = "User's address is "+ jsonInput.getString("address");
-			
-			//adding values to jsonOutput object
+
+						//adding values to jsonOutput object
 			jsonOutput.put("user_name", name);
 			jsonOutput.put("user_age", age);
 			jsonOutput.put("user_address", address);
