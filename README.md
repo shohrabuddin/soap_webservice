@@ -39,7 +39,7 @@ In Eclipse:
   - Available Operations. These operations are methods of your webservice class.
   __Note:__ You can see the WSDL file if you click on _SOAPWebService_. 
 
-## Creating .aar file for deployment
+## Creating .aar file for deployment [OPTIONAL]
 
 * Dowload org.apache.axis2.eclipse.service.plugin_1.6.2.jar or later verion.
 * Put the above jar file into eclipse's (preferebly javaee version) dropins folder.
@@ -54,7 +54,7 @@ In Eclipse:
 
 You will find a .aar file has been created in the output location you have mentioed above.
 
-## Deploying SOAP web sercvie (.aar file) into tomcat server
+## Deploying SOAP web sercvie (.aar file) into tomcat server [OPTIONAL]
 
 
 * Put axis2.war file ito webapps forlder of apache tomcat server. Note that, you should have already downloaded the axis2.war file if you followed __Introduction__ section.
